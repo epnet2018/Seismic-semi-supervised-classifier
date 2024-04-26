@@ -16,7 +16,7 @@ import model_helper
 if __name__ =="__main__":
     
     hd5_test=r'data\\new_train_event2022_3to1_ys1212_aug_test1.h5'
-    model_path='.\\experiment_1\\20240320Latentbest251\\'
+    model_path='.\\experiment_1\\model\\'
     
     train_set=np.empty(0)
     test_set=np.empty(0)

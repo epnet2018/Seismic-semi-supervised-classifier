@@ -1,6 +1,6 @@
 Software package description：
 ----------------------------------------
-The software package is the supporting code for the paper "Rapid Classification of Local Seismic Events based on Semi-Supervised Generative Deep"
+The software package is the supporting code for the paper "A semi-supervised seismic events classifier based on generative adversarial network"
 
 In which:
 The data directory contains the specific data samples used.

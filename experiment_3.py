@@ -31,7 +31,7 @@ if __name__ =="__main__":
     
     np.random.shuffle(test_set)
 
-    #训练集不拆分的情况，使用两个独立的数据集。这里开始。准确度 accuracy: 82.82%
+
     Z2=test_set[:,:18000]  
     Z3=test_set[:,18003]
     X_validation=Z2.reshape(test_set.shape[0],1,100,180)
@@ -39,7 +39,7 @@ if __name__ =="__main__":
     
 
     Y_test_Flag=Y_validation.copy()
-    #评估 过程   
+   
     model_path='.\experiment_3\\model_save\\qs\\samplebest200w\\'
 
     model_path='.\\experiment_3\\model\\'
